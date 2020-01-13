@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    outline: 1px solid orange;
+}
+
+.header__menu ul {
+    padding: 0px;
+    display: flex;
+    list-style: none;
+    outline: 1px solid black;
+}
+
+.header__menu ul li {
+    width: 150px;
+    line-height: 5rem;
+    text-align: center;
+    outline: 1px solid black;
+}
+
+.header__menu ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
