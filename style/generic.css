@@ -12,11 +12,16 @@ body {
     display: flex;
     flex-flow: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .container__front {
+    width: 100%;
     outline: 1px solid blue;
+}
+
+.container__front img {
+    width: 100%;
 }
 
 .container__skill {
